@@ -1,0 +1,307 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+/* Top Section */
+
+.top-section{
+    background-color: #85A392;
+
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+/* Navigations */
+
+.navbar {
+    padding: 0 0 6.5rem;
+}
+
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+
+
+
+/* Main Intro */
+.main-intro{
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+
+/* Buttons */
+.myButtons{
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* Picture */
+
+.img-carbonara{
+ width: 60%; 
+}
+
+
+/* About Me */
+.about-me{
+    padding:6.5rem 0;
+
+}
+
+.about-me-text{
+    text-align: center;
+}
+
+.about-me-greet{
+    color: #85A392;
+    padding-bottom: 0.9rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.my-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 0.6rem;
+}
+
+.my-name:hover {
+    background-color: #85A392;
+    color: white;
+}
+
+.bio{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    padding-top: 0.6rem;
+    line-height: 2;
+}
+
+.motto{
+
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+}
+
+.profile{
+    border-radius: 40%;
+    width: 60%;
+    
+}
+
+/* Carousel */
+
+#carousel{
+    text-align: center;
+    background-color: #FDD998;
+}
+
+.carousel-item{
+    padding: 7% 15%; 
+}
+
+.num-of-steps{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.step-img{
+    width: 50%;
+    margin: 20px;
+}
+
+
+/* Sponsors */
+
+.sponsors {
+    background-color: #FDD998;
+    text-align: center;
+}
+
+.sponsor-img{
+    width:10%;
+    margin: 10px 20px 50px;
+
+}
+
+
+/* Product Images */
+
+
+.product-images{
+    padding: 6.5rem ;
+}
+
+
+
+.pr-images{
+    border-radius:50%;
+    width: 150px;
+    margin: 20px 0;
+}
+
+
+/* Album Products */
+
+#product{
+    padding-bottom: 15%;
+}
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+/* Footer */
+#footer{
+    background-color: #FFECC7;
+    padding: 5% 0;
+    
+}
+
+.social-icons{
+    text-align: center;
+}
+ .icons{
+    
+     margin: 0 8px;
+ }
+
+ .last{
+     padding: 5% 0;
+ }
+
+/* ============================================================================ */
+
+/* Media Quaries */
+
+@media only screen and (max-width: 1008px) {
+
+    /* Top */
+
+    .top-section{
+        text-align: center;
+    }
+
+    /* Navigations */
+    .navbar{
+       padding: 0 0 2.5rem; 
+    }
+    
+    .img-carbonara{
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 100%;
+    }
+    
+    /* Main Opening */
+    .main-intro{
+        color: white;
+        font-size: 2.0rem;
+        line-height: 1.5;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .container-fluid{
+        padding: 7% 15%;
+    }
+
+    /* Buttons */
+    .myButtons{
+        margin: 5% 3% 2% 0%;
+    }
+
+
+    /* About Me */
+
+    .prof-div{
+        text-align: center;
+    }
+
+
+    /* Carousel */
+
+    .step-img{
+        width: 100%;
+    }
+
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+
+  }
